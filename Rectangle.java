@@ -13,8 +13,7 @@ public class Rectangle {
     //create another constructor
     public Rectangle(int length, int breadth, int height) {
         // this(length, breadth);
-        this.length = length;
-        this.breadth = breadth;
+        this(length, breadth);
         this.height = height;
     }
     //create a method
